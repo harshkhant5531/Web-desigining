@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB-14B</title>
+</head>
+<style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .outer{
+        height: 730px;
+        width: 100%;
+        background: linear-gradient(217deg, pink,rgba(227, 207, 210, 0.692) 70.71%),
+            linear-gradient(197deg, rgb(183, 192, 142), rgb(88, 125, 88) 70.71%),
+            linear-gradient(336deg, rgba(67, 67, 133, 0.8), rgb(78, 193, 221) 70.71%);
+            display: flex;
+            
+      }
+      .maininner{
+        height: 600px;
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-bottom: 70px;
+        margin-right: 70px;
+        background-color: white;
+      }
+      .left{
+        float: left;
+        height:600px;
+        width: 50%;
+        background-color: rgba(253, 240, 242, 0.878);
+      }
+      .right{
+        float: right;
+        height: 600px;
+        width: 50%;
+        position: relative;
+      }
+      .uperleft{
+        height: 100px;
+        float: left;
+        width: 50px;
+      }
+      .leftimg{
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+      .leftimg1{
+        height: 20px;
+        width: 20px;
+        margin-top:18px;
+        margin-left: 10px;
+        opacity: 0.6;
+      }
+      .leftsidecenterimage{
+        height: 300px;
+        width: 400px;
+        margin-top: 160px;
+        margin-left:130px;
+      }
+      .soffa1{
+        height: 300px;
+        width: 400px;
+      }
+      .leftbottom{
+        height:100px;
+        width: 50px;
+        margin-top: 20px;
+
+     }
+     .leftimg2{
+        height: 25px;
+        margin-left: 10px;
+        width: 40px;
+        opacity: 0.6;
+     }
+     .leftimg3{
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 40px;
+        opacity: 0.6;
+     }
+     .righttop1{
+      display: inline-block;
+      margin-top: 7px;
+      margin-left:10px ;
+      height: 20px;
+      width: 15px;
+     }
+    
+     .righttop{
+      display: inline-block;
+      margin-left: 10px;
+      color: blue;
+     }
+     .secondright{
+      margin-top: 20px;
+      margin-left: 39px;
+      opacity: 0.6;
+      font-size:15px;
+     }
+     .rightheading1{
+      font-size: 30px;
+      font-weight: 900;
+      margin-left: 39px;
+      margin-top: 3px;
+     }
+     .ratingstar{
+      height: 20px;
+      margin-left: 39px;
+      margin-top: 3px;
+
+     }
+     .second{
+          display: inline-block;
+          
+     }
+     .second1{
+               display: inline-block;
+     }
+     .second2{
+      font-size: 16px;
+      font-weight: 700;
+      margin-left: 39px;
+      margin-top: 7px;
+     }
+     .box1{
+      border: 1px solid gray;
+      height: 30px;
+      display: inline-block;
+      margin-left: 39px;
+      margin-top: 3px;
+      width: 150px;
+      text-align: center;
+      opacity: 0.5;
+     }
+     .box2{
+      border: 1px solid gray;
+      background-color: rgb(240, 239, 239);
+      height: 30px;
+      display: inline-block;
+      margin-left:-5px;
+      margin-top: 3px;
+      width: 150px;
+      text-align: center;
+      opacity: 0.5;
+     }
+     .third{
+      margin-left: 39px;
+      margin-top: 5px;
+      font-weight: 700;
+     }
+     .third1{
+      display: inline-block;
+      border: 1px solid gray;
+      border-radius: 8px;
+      font-weight: 500;
+      opacity: 0.9;
+      margin-top:7px;
+      height: 30px;
+      width: 80px;
+      text-align: center;
+      margin-left: 39px;
+     }
+     .four{
+       font-weight: 800;
+       margin-left: 39px;
+      margin-top: 7px;
+     }
+     .five{
+      border: 1px solid gray;
+      border-radius: 50%;
+      height: 15px;
+      width: 15px;
+      display: inline-block;
+      margin-left: 39px;
+      margin-top: 7px;
+      background-color: green;
+     }
+     .five1{
+          display: inline-block;
+          border: 1px solid gray;
+          border-radius: 50%;
+          height: 20px;
+          margin-left: 25px;
+          height: 15px;
+         width: 15px;
+         background-color: black;
+         
+
+     }
+     .five2{
+      display: inline-block;
+      border: 1px solid gray;
+      border-radius: 50%;
+      height: 15px;
+      margin-left: 25px;
+      width: 15px;
+      background-color: gray;
+    }
+    .five3{
+      display: inline-block;
+      border: 1px solid gray;
+      border-radius: 50%;
+      margin-left: 25px;
+      height: 15px;
+      width: 15px;
+      background-color: rgba(235, 230, 230, 0.811);
+    }
+    .six{
+      font-weight: 800;
+       margin-left: 39px;
+      margin-top: 7px;
+    }
+    .six1{
+      display: inline-block;
+      border: 1px solid gray;
+      font-weight: 460;
+      border-radius: 6px;
+      margin-left: 37px;
+      margin-top: 5px;
+      width: 70px;
+      height: 26px;
+      text-align: center;
+
+    }
+    .six2{
+      display: inline-block;
+      border: 1px solid gray;
+      font-weight:460;
+      border-radius: 6px;
+      margin-left: 37px;
+      margin-top: 5px;
+      width: 60px;
+      height: 26px;
+      text-align: center;
+    }
+    .seven1{
+       display: inline-block;
+       border-bottom: 2px solid ;
+       height: 40px;
+       margin-top: 20px;
+       margin-left: 37px;
+       width: 120px;
+       text-align: center;
+       border-top-color: rgb(234, 231, 231);
+       border-left-color: rgb(234, 231, 231);
+       border-right-color: rgb(234, 231, 231);
+       border-bottom-color: blue;
+      }
+    .seven2{
+       display: inline-block;
+       margin-left: 120px;
+       height: 40px;
+       width: 90px;
+       text-align: center;
+    }
+    .seven3{
+       display: inline-block;
+       margin-left:140px;
+       height: 40px;
+       width: 70px;
+       text-align: center;
+    }
+    .fackdiv{
+      height: 10px;
+      width: 100%;
+    }
+    .lastone{
+      margin-left: 37px;
+      margin-top: 10px;
+      font-weight: 800;
+    }
+    .imglast{
+      height: 100px;
+      width: 100px;
+      margin-left: 30px;
+      margin-top: 7px;
+      display: inline-block;
+      float: left;
+      position: absolute;
+    }
+    .lasttext{
+    display: inline-block;
+    margin-right:350px;
+    margin-top: 10px;
+    float: right;  
+    position: relative;
+    }
+    .overlap{
+      height: 80px;
+      width: 80%;
+      background-color:rgb(250, 250, 250);
+      position:relative;
+      margin-top: 20px;
+    }
+    .leftsidediv{
+      height: 80px;
+      width: 90%;
+      background-color:rgb(250, 250, 250);
+      position: relative;
+      float: right;
+      margin-top: -104px;
+    }
+    .fackimg{
+      height: 50px;
+      width: 50px;
+      margin-top: 15px;
+      margin-left: 90px;
+    }
+    .leftsidefack3{
+      float: right;
+      margin-right: 180px;
+      margin-top: 20px;
+    }
+    .leftright{
+      float: right;
+      margin-top: -68px;
+      margin-right: 30px;
+    }
+    .lastp{
+      opacity: 0.4;
+    }
+    .lastrightdiv{
+      float: right;
+      margin-top: 20px;
+      margin-right:-160px;
+      font-size: 35px;
+      opacity: 0.7;
+      
+    }
+    button{
+      float: right;
+      margin-right:-350px ;
+      margin-top:20px ;
+      height: 40px;
+      width: 150px;
+      background-color: rgb(6, 6, 66);
+      color: white;
+    }
+    
+    
+    
+</style>
+<body>
+    <div class="outer">
+       <div class="maininner">
+           <div class="left">
+                      <div class="uperleft">
+                             <img class="leftimg" src="threeline.png">
+                             <div>
+                             <img class="leftimg1" src="search.png">
+                            </div>
+                      </div>
+                              <div class="leftsidecenterimage">
+                                    <img class="soffa1" src="soffa.png">
+                              </div>
+                              <div class="leftbottom">
+                                <img class="leftimg2" src="profileimage.png">
+                                <div>
+                                <img class="leftimg3" src="cart.png">
+                               </div>
+                               
+                              </div>
+                              <div class="leftsidediv">
+                                  <img class="fackimg" src="soffa.png">
+                                  <div class="leftsidefack3">
+                                    <b>College Essentials</b><br>
+                                    <p class="lastp">Everything you need  for fresherman year.</p>
+                                  </div>
+                                  <div class="leftright">
+                                    <b>Add Ons</b><br>
+                                    <img src="addons.png">
+                                  </div>
+                              </div>
+           </div>
+           <div class="right">
+            <div class="righttop1">
+              <img src="leftsidearrow.png">
+            </div>
+                   <div class="righttop">
+                    Back to Bedroom
+                   </div>
+                   <div class="secondright">
+                    BEDROOM
+                   </div>
+                   <div class="rightheading1">
+                    College Essentials
+                   </div>
+                   <div class="second">
+                    <img class="ratingstar" src="rating1.png">
+                   </div>
+                   <div class="second1">
+                    4.4B(32B reviews)
+                   </div>
+                   <div class="second2">
+                    Select Quality
+                   </div>
+                   <div class="box1">
+                    Basic
+                   </div>
+                   <div class="box2">
+                    Premium
+                   </div>
+                   <div class="third">
+                    Style
+                   </div>
+                   <div class="third1">
+                    Minimal
+                   </div>
+                   <div class="third1">
+                    Bohemian
+                   </div>
+                   <div class="third1">
+                    Floral
+                   </div>
+                   <div class="third1">
+                    Other
+                   </div>
+                   <div class="four">
+                    Color
+                   </div>
+                   <div class="five">
+                      
+                   </div>
+                   <div class="five1">
+                    
+                   </div>
+                   <div class="five2">
+                    
+                   </div>
+                   <div class="five3">
+                    
+                   </div>
+                   <div class="six">
+                    Size
+                   </div>
+                   <div class="six1">
+                    Twin XL
+                   </div>
+                   <div class="six2">
+                    Full
+                   </div>
+                   <div class="fackdiv">
+
+                   </div>
+                   <div class="seven1">
+                    What's Inside
+                   </div>
+                   <div class="seven2">
+                    Reviews
+                   </div>
+                   <div class="seven3">
+                    FAQs
+                   </div><hr style="color: gray;">
+                   <div class="lastone">
+                    Customizable Items
+                   </div>
+                   <div>
+                    <div >
+                      <img class="imglast"  src="showel.png">
+                    </div>
+                  
+                   <div class="lasttext">
+                    <h4>Blush Plush Comforter</h4>
+                    <br>
+                     see product details
+                  </div>
+                </div>
+                <div class="overlap">
+                    <div>
+                      <h2 class="lastrightdiv">$195</h2>
+                    </div>
+                    <div>
+                        <button><b>Add to Cart(2)</b></button>
+                    </div>
+                </div>
+
+           </div>
+       </div>
+    </div>
+</body>
+</html>

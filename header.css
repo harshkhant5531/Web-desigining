@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+}
+.navdiv{
+    height: 100px;
+    background-color: green;
+    
+}
+a{
+    margin-right: 100px;
+   
+}
+#lg{
+    background-color: rgb(165, 87, 42);
+    color: white;
+     font-size:40px ;
+    
+}
+
+#lh{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+#la{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+#lp{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+#ls{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+#lb{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+#lc{
+    background-color: rgb(0, 204, 255);
+    font-size: 40px;
+}
+
+.laftsidepart{
+    background-color:gray;
+    height: 85%;
+
+}
+.laftsidepartright{
+    background-color:red;
+    height: 100%;
+    width: 20%;
+    padding-left: 10px;
+
+}
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConicGradiant</title>
+    <style>
+        .div1{
+            height:300px;
+            width: 300px;
+            background-color: red;
+            border-radius: 50%;
+            background-image: conic-gradient(violet,red,yellow,blue,green,pink,orange,violet);
+            animation-name: rotation;
+            animation-delay: 0s;
+            position: relative;
+            justify-items: center;
+             transform :rotate(360deg) ;
+            
+        }
+        @keyframes rotation{
+            from{
+                background-image: conic-gradient(violet,red,yellow,blue,green,pink,orange,violet);
+            }
+            to{
+                background-image: conic-gradient(violet,orange,pink,green,blue,yellow,red,violet);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+</body>
+</html>

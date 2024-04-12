@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid bg-dark">
+            <a class="navbar-brand text-light" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-sm-end m-3" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" aria-disabled="true">Messages<span
+                                class="badge text-bg-secondary bg-success">12</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="lead">
+        <div class="h1 text-dark m-4">Dashboard:</div>
+    </div>
+    <div class="container-fluid">
+        <div class="row row-cols-4 p-5 g-5">
+            <div class="col">Name</div>
+            <div class="col">Team</div>
+            <div class="col">All Star</div>
+            <div class="col">Remove</div>
+            <div class="col bg-dark-subtle">Steph</div>
+            <div class="col bg-dark-subtle">Warriors</div>
+            <div class="col bg-dark-subtle">Yes</div>
+            <div class="col bg-dark-subtle text-danger"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                </svg></div>
+            <div class="col bg-dark-subtle">Labron</div>
+            <div class="col bg-dark-subtle">Cavaliers</div>
+            <div class="col bg-dark-subtle">Yes</div>
+            <div class="col bg-dark-subtle text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                </svg></div>
+            <div class="col bg-dark-subtle">Dwayne</div>
+            <div class="col bg-dark-subtle">Heat</div>
+            <div class="col bg-dark-subtle">Yes</div>
+            <div class="col bg-dark-subtle text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                </svg></div>
+            <div class="col bg-dark-subtle">Kobe</div>
+            <div class="col bg-dark-subtle">Lakers</div>
+            <div class="col bg-dark-subtle">Yes<span class="badge text-bg-secondary bg-warning">Last</span></div>
+            <div class="col bg-dark-subtle text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                </svg></div>
+            <div class="col bg-dark-subtle">Isaiah</div>
+            <div class="col bg-dark-subtle">Celtics</div>
+            <div class="col bg-dark-subtle">Yes<span class="badge text-bg-secondary bg-success">First</span></div>
+            <div class="col bg-dark-subtle text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+                </svg></div>
+        </div>
+    </div>
+    <hr>
+    <div class="lead">
+        <div class="h1 text-dark m-4">Todos:</div>
+    </div>
+    <div class="alert alert-success bg-success-light text-success mx-4 m-0" role="alert">
+    Feel good about bootstrap
+    </div>
+    <div class="alert alert-primary bg-primary-light text-primary mx-4 m-0" role="alert">
+      Feel informed about bootstrap
+    </div>
+    <div class="alert alert-warning  bg-warning-light text-warning mx-4 m-0" role="alert">
+      Feel warned about bootstrap
+    </div>
+    <div class="alert alert-warning bg-warning-light text-warning mx-4 m-0" role="alert">
+      Maybe I Should read the docs...
+    </div>
+    <div class="alert alert-danger bg-danger-light text-danger mx-4 m-0" role="alert">
+      Danger Zone
+    </div>
+    <div class="alert alert-danger bg-danger-light text-danger mx-4 m-0" role="alert">
+      I really Should read the docs...
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh</title>
+</head>
+
+<body>
+    <h1 align="center">Student Registration</h1>
+    <fieldset >
+        <legend align="center">Personal Inforamtion</legend>
+        <form>
+            <table align="center" cellpadding="10px" >
+                <tr>
+                    <td>
+                        Name*
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your name" required>
+                    </td>
+                    <td>
+                        Password*
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter your password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email*
+                    </td>
+                    <td colspan="3">
+                        <input  type="email" size="81" placeholder="Enter your Email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Mobile number
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your mobile number" pattern="[0-9]{10}">
+                    </td>
+                    <td>
+                        Date of Birth
+                    </td>
+                    <td>
+                        <input type="date" >
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td valign="top">
+                        Gender
+                    </td>
+                    <td valign="top">
+                        <input type="radio"/>Male<br/><input type="radio"/>Female
+                    </td>
+                    <td valign="top">
+                        Hobbies
+                    </td>
+                    <td>
+                        <input type="checkbox">Reading<br/><input type="checkbox">Singing<br/><input type="checkbox">Cricket<br/><input type="checkbox">Swimming
+                    </td>
+                </tr>
+           
+                <tr>
+                    <td>
+                        CGPA
+                    </td>
+                    <td>
+                        <input type="range" id="range" name="range" value="10" min="0" max="10">10.00  <button>OR</button> <input type="text" size="4" name="range"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Insert Resume
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        LinkedIn URL
+                    </td>
+                    <td colspan="4">
+                        <input type="url" size="81" placeholder="Please enter URL">
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="4" align="center"><input type="submit" value="Submit">
+                    <input type="reset" value="reset" ></td>
+                </tr>
+                
+            </table>
+        </form>
+    </fieldset>
+    <br/><br/><br/>
+    Comments<br><textarea placeholder="Please enter some suggestions" rows="4" cols="204"></textarea>
+</body>
+
+</html>

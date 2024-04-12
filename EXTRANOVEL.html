@@ -1,0 +1,99 @@
+<html> 
+<head> 
+ <title>Form Fill Test Page</title> 
+</head> 
+<body> 
+    <form> 
+        <table align="center" border="0" cellpadding="4" cellspacing="4"> 
+        
+          <caption><h1>Novell Services Login</h1> </caption> 
+ 
+            <tr align="left"> 
+              <td>Username:</td> 
+              <td><input type="text" name="username"></td> 
+            </tr> 
+ 
+            <tr align="left"> 
+              <td>Password:</td> 
+              <td><input type="password" name="password">
+              </td> 
+            </tr>
+
+            <tr>
+                <td>Mobile:</td>
+                <td><input type="text" pattern="[0-9]{10}" title="mobile no. have must ten digits"></td>
+            </tr>
+ 
+            <tr align="left"> 
+              <td>City of<br>Employment:</td> 
+              <td><input type="text" name="city"></td> 
+            </tr> 
+ 
+            <tr align="left"> 
+                <td>Gender:</td> 
+                <td> 
+                   <input name="gender" value="male" type="radio">
+                          Male<br> 
+                   <input name="gender" value="female" type="radio">
+                         Female<br> 
+                </td> 
+            </tr>
+
+            <tr align="left"> 
+              <td>Web server:</td> 
+              <td> 
+                <select name="webserv" size="1"> 
+                  <option value="default" selected disabled> 
+                    --- Choose a server --- 
+                  </option> 
+                  <option value="Human Resources"> 
+                    Human Resources 
+                  </option> 
+                  <option value="Development"> 
+                    Development 
+                  </option> 
+                  <option value="Accounting"> 
+                    Accounting 
+                  </option> 
+                  <option value="Sales"> 
+                    Sales 
+                  </option> 
+                </select> 
+              </td> 
+            </tr> 
+ 
+            <tr align="left"> 
+              <td>Please specify<br>your role:</td> 
+              <td> 
+                 <input name="role" value="admin" type="radio">
+                        Admin<br> 
+                 <input name="role" value="engineer" type="radio">
+                       Engineer<br> 
+                 <input name="role" value="manager" type="radio">
+                       Manager<br> 
+                 <input name="role" value="guest" type="radio">Guest 
+              </td> 
+            </tr>
+ 
+            <tr align="left"> 
+              <td>Single Sign-on<br>to the following:</td> 
+              <td> 
+                <input name="mail" type="checkbox">Mail<br> 
+                <input name="payroll" type="checkbox">Payroll<br> 
+                <input name="selfservice" type="checkbox">
+                             Self-service<br> 
+              </td> 
+            </tr> 
+ 
+            <tr> 
+                <td  align="right"> 
+                <input value="Login" type="submit">
+                </td>
+                <td> 
+                <input type="reset"> 
+                </td> 
+            </tr> 
+        </table> 
+    </form> 
+</body> 
+</html>

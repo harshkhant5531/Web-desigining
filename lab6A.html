@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part-A</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: skyblue;
+        }
+
+        .text {
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .main {
+            margin-top: 10px;
+            margin-left: 20px;
+            height: 85vh;
+            width: 97vw;
+           
+        }
+
+        .header {
+            height: 10%;
+            width: 97vw;
+            border: 1px solid black;
+            background-color:magenta;
+            color: white;
+            padding: 10px;
+        }
+
+        .content {
+            height: 80%;
+            width: 97vw;
+            background-color: orange;
+            position: relative;
+
+        }
+
+        .footer {
+            height: 10%;
+            width: 97vw;
+            background-color: blue;
+            
+        }
+
+        .entry {
+            height:400px;
+            width: 60vw;
+            
+        }
+
+        .content1 {
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        .entry1 {
+            margin-top: 30px;
+            margin-left: 30px;
+            height: 10%;
+            width: 55vw;
+           
+            background-color: black;
+            color: white;
+        }
+
+        .entry2 {
+            margin-top: 30px;
+            margin-left: 30px;
+            height: 10%;
+            width: 55vw;
+          
+            background-color: black;
+            color: white;
+        }
+
+        .entry3 {
+            margin-top: 30px;
+            margin-left: 30px;
+            height: 10%;
+            width: 55vw;
+            
+            background-color: black;
+            color: white;
+        }
+
+         .slidebar {
+            height: 40%;
+            width: 20vw;
+            margin-top: 80px;
+            margin-right: 20px;
+            
+            background-color: black;
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            color: white;
+        } 
+
+        .text1 {
+            margin: 20px;
+        }
+        .text2{
+            color: white;
+            padding: 10px;
+        }
+        @media (max-width:700px) and (min-width:450px){
+            .entry{
+                width:100%
+            }
+            .entry1{
+                width: 100%;
+            }
+            .entry2{
+                width: 100%;
+            }
+            .entry3{
+                width: 100%;
+            }
+            .slidebar{
+                float: inline-end; 
+                width: 92%;
+                top: calc(100% - 60%);
+                margin: 30px;
+              
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <h1>Page</h1>
+    </div>
+    <div class="main">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="content">
+            <div class="entry">
+                <div class="content1">
+                    <h1>Content</h1>
+                </div>
+                <div class="entry1">
+                    <h1>Entry</h1>
+                </div>
+                <div class="entry2">
+                    <h1>Entry</h1>
+                </div>
+                <div class="entry3">
+                    <h1>Entry</h1>
+                </div>
+            </div>
+            <div class="slidebar">
+                <div class="text1">
+                    <h1>Slidebar</h1>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="text2"><h1>©Darshan University-Rajkot</h1></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9A1</title>
+    <style>
+        body{
+            border: 3px solid white;
+            height: 90vh;
+            position: relative;
+            background-color: black;
+        }
+        .animation{
+            height: 20%;
+            width: 10%;
+            background-color: orange;
+            position: relative;
+            animation-name: box;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            border-radius: 50%;
+            transition: all 2s;
+            background-image: url(Harsh.jpg);
+            
+           
+
+        }
+        .image{
+            
+        }
+        @keyframes box{
+           0%{
+               top: 0%;
+               left: 0%;
+               background-color: orange;
+               transform: rotate(0deg);
+
+            }
+            25%{
+            top: 0%;
+            left: 90%;
+            background-color:blue;
+            transform: rotate(360deg);
+
+             }
+             35%{
+            top: 0%;
+            left: 60%;
+            background-color:blue;
+            transform: rotate(360deg);
+             }
+             50%{
+               top: 80%;
+               left:90%;
+               background-color:magenta;
+               transform: rotate(360deg);
+             }
+            65%{
+            top: 0%;
+            left: 60.9%;
+            background-color:blue;
+            transform: rotate(360deg);
+             }
+             75%{
+                 top: 80%;
+                 left:0%;
+                 background-color: green;
+                 transform: rotate(0deg);
+
+             }
+             80%{
+            bottom: 0%;
+            left: 50%;
+            background-color:blue;
+            transform: rotate(360deg);
+             }
+            85.6%{
+            top: 0%;
+            right: 60.78%;
+            background-color:blue;
+            transform: rotate(360deg);
+             }
+             100%{
+                top: 0%;
+                left: 0%;
+                background-color:yellowgreen;
+                transform: rotate(360deg);
+                
+             }
+            
+        }
+    </style>
+</head>
+<body class="">
+    <div  class="animation">
+     
+    </div>
+</body>
+</html>

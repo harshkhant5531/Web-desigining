@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab8-C</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+           .head{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(152, 75, 152);
+           }
+           .img{
+            height: 50px;
+            margin-top: 20px;
+            margin-left: 20px;
+           }
+           .first{
+            color: white;
+            font-size: 40px;
+            display: inline-block;
+         
+           }
+           .list{
+            color: white;
+            font-size: 30px;
+            float: right;
+            padding-right: 90px;
+            margin-right:90px ;
+            margin-top: 50px;
+            text-decoration: none;
+            
+           }
+           .but{
+            float: right;
+            background-color: purple;
+            color: white;
+            height: 40px;
+            width: 150px;
+            margin-top:50px;
+            margin-right: 80px;
+            border-radius: 50px;
+            font-size: 20px;
+            text-align: center;
+           }
+           .fackdiv{
+            height: 50px;
+            width: 100%;
+           }
+           .mark1{
+           
+            color:purple ;
+            background-color: white;
+            font-weight: bold;
+           }
+           .heading1{
+              font-size: 50px;
+              font-weight: bold;
+              text-align: center;
+           }
+           .heading2{
+            font-size: 50px;
+              font-weight: bold;
+              text-align: center;
+           }
+           
+           .box1{
+              
+              display: inline-block;
+              height: 400px;
+              width: 30%;
+              padding-left: 100px;
+              position: absolute;
+              margin-left: 600px;
+           }
+           .box2{
+             
+              display: inline-block;
+              height: 400px;
+              width: 30%;
+              position: absolute;
+              margin-left: 700px;
+           }
+           .box3{
+             
+              display: inline-block;
+              height: 400px;
+              width: 30%;
+              position: absolute;
+              margin-left: 800px;
+           }
+           .fackdiv2{
+            height: 30px;
+            width: 100%;
+           }
+           .firstimg{
+            height:400px ;
+            width: 300px;
+            text-align: center;
+            margin-left: 180px;
+            border-radius: 30px;
+            
+           
+            }
+            .middelleft{
+                background-color: purple;
+                font-size: 20px;
+                border-radius: 10px;
+                color: white;
+                height: 50px;
+                width: 100px;
+            }
+            .UX{
+                color: white;
+                background-color: purple;
+                border-radius: 40px;
+                width: 170px;
+               margin-right: 50px;
+               margin-top: 30px;
+               text-align: center;
+            }
+            .web1{
+                margin-left:420px;
+                margin-top: 320px;
+                color: white;
+                background-color: purple;
+                border-radius: 40px;
+                width: 170px;
+                text-align: center;
+                
+               
+            }
+            .p1{
+               text-align: center;
+            }
+            .footer1{
+                 height: 130px;
+                 width: 100%;
+                 background-color: rgba(13, 13, 43, 0.901);
+                 margin-top: 470px;
+            }
+            .paypal{
+                height:40px;
+                width:10%;
+                display: inline-block;
+               justify-content: center;
+               margin-left:250px ;
+               opacity: 30%;
+               margin-top: 50px;
+               
+            }
+            .paypal2{
+                background-color:rgba(13, 13, 43, 0.901) ;
+            }
+            .footer2{
+                height: 400px;
+                width: 100%;
+                background-color:rgb(152, 75, 152) ;
+            }
+            .last{
+                color: white;
+                font-weight: bold;
+                float: left;
+                margin: 80px;
+                margin-top: 60px;
+                font-size: 40px;
+            }
+            .lastmiddel{
+                float: right;
+                color: rgba(255, 255, 255, 0.675);
+                font-size: 20px;
+                margin-top: 60px;
+                margin-right: 500px;
+                
+                
+            }
+            .lastbottom{
+                height: 90px;
+                width: 100%;
+                margin-top: 280px;
+                position: absolute;
+            }
+            .K1{
+                height: 80px;
+                width: 80px;
+                background-color: purple;
+                text-align: center;
+                color: white;
+                font-weight: bold;
+                font-size: 40px;
+                border-radius: 10px;
+                display: inline-block;
+                margin-right: 300px;  
+                margin-left: 400px;
+                margin-bottom: -120px;
+                position: relative;
+                
+            }
+            .headingbottom1{
+                display: inline-block;
+                color: white;
+                text-align: left;
+                font-size:19px ;
+                margin-left: -290px;
+                margin-top: -100px;
+                position: relative;
+                margin-bottom: -90px;
+              
+               
+                
+                
+               
+            }
+            .headingbottom2{
+                display: inline-block;
+                color: white;
+                text-align: left;
+                font-size:19px ;
+                margin-left: -290px;
+                position: relative;
+                margin-bottom: -90px;
+                
+              
+               
+               
+            }
+            .headingbottom3{
+                display: inline-block;
+                color: white;
+                text-align: left;
+                font-size:19px ;
+                margin-right: 200px;
+                margin-left:-290px;
+                position: relative;
+                margin-bottom: -90px;  
+               
+            }
+            .list:hover{
+                color: yellowgreen;
+            }
+            .but:active{
+                color:orange ;
+            }
+            .mark1:hover{
+                color: limegreen;
+            }
+            .lastmiddel:hover{
+                color: gray;
+            }
+            .headingbottom1.headingbottom2.headingbottom3:hover{
+                color: coral;
+            }
+            
+    </style>
+</head> 
+<body>
+    <header class="head">
+        <img class="img" src="rounda.jpg"><h2 class="first">Alea</h2>
+        <button class="but">Let's Talk</button>
+        <a href="#" class="list">Services</a>
+        <a href="#" class="list">About</a>
+        <a href="#" class="list">Home</a>
+    </header>
+    <div class="fackdiv"></div>
+    <div class="text">
+       <h1 class="heading1">I'm <mark class="mark1">Alea</mark>.I will create a web design that</h1><br>
+       <h1 class="heading2">can give value to your  company</h1>
+    </div>
+    <div class="fackdiv2" ></div>
+    <div class="three">
+        <div class="box1">
+           <h3 class="UX">UI/UX Designer<br>
+           <p class="p1"> 4 Years</p>
+       </h3>
+           
+        </div>
+        <div class="box2">
+          <img class="firstimg" src="Harsh.jpg">
+        </div>
+        <div class="box3">
+            <h3 class="web1">Web Devlopment<br>
+               <p  class="p1">2 Years</p>
+        </div>
+    </div>
+    <div class="footer1">
+        
+            <img class="paypal" src="paypal.png">
+        
+       
+            <img class="paypal" class="paypal2" src="linkdin.png">
+       
+            <img class="paypal" src="lenovo.png">
+                                                
+        
+            <img class="paypal" src="amazon.png">
+        
+    </div>
+    <div class="footer2">
+<div class="last">
+    <h1>About<br>Me.</h1>
+</div>
+<div class="lastmiddel">
+    Although most people consider piranhas to be quite dangerous, they are, except in<br>
+    two main situations, entirely harmless. Piranhas rarely feed on large animals; they eat smaller fish and aquatic plants.<br>
+    When confronted with humans, piranhas instinct is to flee, not attack. But there are two situations<br>
+    in which a piranha bite is likely. The first is when a frightened piranha is lifted out of the water—for example,<br>
+    if it has been caught in a fishing net. The second is when the water level in pools where piranhas are living<br>
+    falls too low. A large number of fish may be trapped in a single pool, and if <br>
+    they are hungry, they may attack anything that enters the water.<br>
+
+</div>
+<div class="lastbottom">
+    <div class="K1">4K</div><label class="headingbottom1">Project<br>Done</label>
+    <div class="K1">2K</div><label class="headingbottom2" >Happy<br>Clients</label>
+    <div class="K1">9K</div><label class="headingbottom3">Clients on<br>Worldwide</label>
+</div>
+    </div>
+</body>
+</html>
